@@ -6,9 +6,56 @@
     display: flex !important;
   }
 }
+@media all and (max-width: 1199px) {
+  /* .single_blog_pragrap {
+    padding: 0;
+    height: 390px;
+  } */
+}
 @media all and (max-width: 1080px) {
+  .grap_subtitle,
+  .grap_title {
+    font-size: 15px;
+  }
   .tk_list_item {
     text-align: center;
+  }
+  .roadmap_grap {
+    display: block;
+  }
+  .roadmap_single {
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  .grap_subtitle {
+    padding-top: 0;
+    padding-right: 60px;
+  }
+  .grap_title {
+    height: 90px;
+    text-align: left;
+  }
+  .grap_subtitle::after {
+    left: calc(67% - 10px);
+  }
+  .roadmap_grap::after {
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    left: 190px;
+    top: -20px;
+    content: "";
+    background: #fff;
+  }
+  .roadmap_area {
+    background: url("../images/roadmap-mobile.png") no-repeat scroll 0 0 / 100%
+      100%;
+  }
+  .blog_body_area {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media all and (max-width: 991px) {
@@ -57,6 +104,9 @@
   }
   .comnunity_text_innter {
     max-width: 100%;
+  }
+  .single_blgo_title {
+    font-size: 32px;
   }
 }
 
@@ -135,6 +185,21 @@
   .tk_header {
     width: 400px;
   }
+  .roadmap_grap::after {
+    left: 100px;
+  }
+  .roadmap_title {
+    font-size: 36px;
+  }
+  .blog_body_area {
+    grid-template-columns: 1fr;
+  }
+  .single_blgo_title {
+    font-size: 28px;
+  }
+  .single_blog_btn {
+    font-size: 18px;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -180,6 +245,18 @@
     display: flex;
     align-items: center;
   }
+  .roadmap_grap::after {
+    left: calc(20% - 9px);
+  }
+  .roadmap_title {
+    font-size: 42px;
+  }
+  .single_blgo_title {
+    font-size: 24px;
+  }
+  .single_blog_btn {
+    font-size: 16px;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -195,5 +272,11 @@
   }
   .token_title {
     font-size: 26px;
+  }
+  .roadmap_grap::after {
+    left: 68px;
+  }
+  .roadmap_title {
+    font-size: 32px;
   }
 }
