@@ -342,6 +342,9 @@
 }
 
 @media all and (max-width: 575px) {
+  .roadmap_area{
+    margin-bottom: -1px;
+  }
   .page_section,
   .contact_title{
     font-size: 32px;
