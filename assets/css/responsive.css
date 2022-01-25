@@ -344,6 +344,7 @@
 @media all and (max-width: 575px) {
   .roadmap_area{
     margin-bottom: -1px;
+    background: url('../images/roadmap-mobile-sm.png') no-repeat scroll 0 0 / cover;
   }
   .page_section,
   .contact_title{
