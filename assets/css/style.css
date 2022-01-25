@@ -1,16 +1,23 @@
+/* FONT FACE */
+@import url('http://fonts.cdnfonts.com/css/arial');
+@import url('http://fonts.cdnfonts.com/css/avenir');
+@import url('http://fonts.cdnfonts.com/css/helvetica-255');
+/* FONT FACE */
 :root {
-  --avinir-font: "Avenir Arabic";
-  --arial-font: "Arial";
-  --helvetic-pro-font: "HelveticaNeueLTW06-93BlkExtObl";
-  --helvetic-font: "Helvetica";
+  --avinir-font: 'Avenir', sans-serif;
+  --arial-font: 'Arial', sans-serif;
+  --arial-black: 'Arial Black', sans-serif;
+  --arial-light: 'Arial Light', sans-serif;
+  --helvetic-pro-font: 'Helvetica', sans-serif;
+  --helvetic-font: 'Helvetica', sans-serif;
 }
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
-  font-family: var(--arial-font);
   font-weight: 500;
+  font-family: 'Arial', sans-serif;
 }
 h1,
 h2,
@@ -625,11 +632,8 @@ form input[type="submit"] {
 /* footer */
 /* TEXONOMY AREA */
 .tokenomic {
-  background: url("../images/texno/texno-bg.png") no-repeat scroll 0 0 / 100%
-    100%;
-}
-.tokenomic_content {
-  background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / cover;
+  background: url("../images/texno/toko-desk-bg.png") no-repeat scroll 0 0 / cover;
+  height: 100vh;
 }
 .mk_banner_content {
   padding: 70px 0;

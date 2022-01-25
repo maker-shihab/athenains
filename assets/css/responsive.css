@@ -77,6 +77,9 @@
   .contact_title{
     margin-bottom: 60px;
   }
+  .tokenomic {
+    background: url("../images/texno/toko-tab-bg.png") no-repeat scroll 0 0 / cover;
+  }
 }
 @media all and (max-width: 991px) {
   .menu_area_main {
@@ -172,6 +175,11 @@
 }
 
 @media all and (max-width: 767px) {
+  .tokenomic {
+    background: url("../images/texno/toko-mb-bg.png") no-repeat center;
+    background-size: contain;
+    padding-top: 42%;
+  }
   .privacy_single .w-50{
     width: 100% !important;
   }
@@ -292,7 +300,13 @@
     padding-bottom: 470px; 
   }
   .tokenomic_content {
-    background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / 100% 100%;
+    background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / cover;
+    background-position: center;
+  }
+    .tokenomic {
+  background: url("../images/texno/toko-desk-bg.png") no-repeat scroll 0 0 / cover;
+  height: 100vh;
+}
 }
 .tokenomic{
   position: relative;
