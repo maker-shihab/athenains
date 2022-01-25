@@ -67,6 +67,16 @@
   .earn_area {
     background: url(../images/home/yilow-tablet.png) no-repeat scroll 0 0 / cover;
   }
+  .mk_app_area{
+    background: url('../images/app/app-bg-tablet.png') no-repeat scroll 0 0 / cover;
+  }
+  .mk_app_hero_text {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .mk_app_title {
+    font-size: 42px;
+  }
 }
 @media all and (max-width: 991px) {
   .menu_area_main {

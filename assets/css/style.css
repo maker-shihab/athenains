@@ -367,6 +367,7 @@ display: block;
 background: url('../images/app/ap-hero-bg.png') no-repeat scroll 0 0 / 100% 100%;
 padding: 50px 0;
 margin-bottom: -2px;
+padding-bottom: 200px;
 }
 .mk_app_shape img {
   height: 100%;
