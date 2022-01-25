@@ -67,15 +67,15 @@
   .earn_area {
     background: url(../images/home/yilow-tablet.png) no-repeat scroll 0 0 / cover;
   }
-  .mk_app_area{
-    background: url('../images/app/app-bg-tablet.png') no-repeat scroll 0 0 / cover;
-  }
   .mk_app_hero_text {
     text-align: center;
     padding-bottom: 50px;
   }
   .mk_app_title {
     font-size: 42px;
+  }
+  .contact_title{
+    margin-bottom: 60px;
   }
 }
 @media all and (max-width: 991px) {
@@ -161,6 +161,9 @@
   }
   .hero_content {
     max-width: 350px;
+  }
+  .contact_title{
+    font-size: 42px;
   }
 }
 
@@ -312,10 +315,22 @@
   max-width: 150px;
   text-align: center;
 }
+.contact_title{
+  font-size: 36px;
+}
+.contact_title{
+  margin-bottom: 50px;
+}
+.contact_title{
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
 }
 
 @media all and (max-width: 575px) {
-  
+  .contact_title{
+    font-size: 32px;
+  }
   p {
     font-size: 16px !important;
   }
@@ -366,6 +381,10 @@
   }
   .single_blog_btn {
     font-size: 16px;
+  }
+  .contact_title{
+    margin-bottom: 40px;
+    padding-top: 20px;
   }
 }
 

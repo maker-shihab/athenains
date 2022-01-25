@@ -1008,3 +1008,30 @@ article .article_pragrap {
   text-decoration: underline;
 }
 /* PRIVACY AREA */
+/* CONTACT TITLE */
+.contact_title{
+  margin-bottom: 80px;
+  padding-top: 50px;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+.contact_title::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 150px;
+  content: '';
+  background: #fff;
+}
+.contact_title span{
+  color: #f2fc20;
+  font-weight: 900;
+}
+.contact_content p{
+  color: #fff;
+  padding-bottom: 20px;
+  text-align: center;
+}
