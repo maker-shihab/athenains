@@ -57,6 +57,16 @@
   .blog_body_area {
     grid-template-columns: 1fr 1fr;
   }
+  .hero_m_area{
+    background: url('../images/home/home-tab.png') no-repeat scroll 0 0 / cover;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .earn_area {
+    background: url(../images/home/yilow-tablet.png) no-repeat scroll 0 0 / cover;
+  }
 }
 @media all and (max-width: 991px) {
   .menu_area_main {
@@ -69,12 +79,32 @@
     left: 0;
     right: 0;
     margin: auto;
-    background: white;
-    top: 76px;
+    top: 70px;
     padding: 19px;
     display: none;
-    border-radius: 5px;
+    border-radius: 0px 0px 20px 20px;
+    background: #0d0d5b;
+    box-shadow: 0px 14px 6px rgba(0, 0, 0, 0.16);
   }
+  .menu ul li a.menu_link {
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 6px 17px;
+    border-radius: 11px;
+    background: transparent;
+    margin: 0 12px;
+    border: 1px solid transparent;
+    box-shadow: none;
+    text-align: center;
+}
+.btn_primary {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  margin: 10px auto;
+}
   .menu ul li {
     width: 100%;
     display: block;
@@ -89,9 +119,6 @@
   }
   .hero_content {
     padding-bottom: 150px;
-  }
-  .hero_content a {
-    background: blue;
   }
   .comnunity_text_out_box {
     justify-content: flex-start;
@@ -108,9 +135,29 @@
   .single_blgo_title {
     font-size: 32px;
   }
+  .comunity_m_area {
+    background: url('../images/comunity-mobile.png') no-repeat scroll 0 0 / 100% 105%;
+    padding-bottom: 350px !important;
+  }
+  .gorvence_m_area{
+    background: url('../images/comunity-two-bg.png') no-repeat scroll 0 0 / 100% 100%;
+    padding-top: 500px !important;
+  }
+  .hero_content h1{
+    font-size: 48px;line-height: 46px;
+  }
+  .hero_content a{
+    font-size: 16px;
+  }
+  .hero_content {
+    max-width: 350px;
+  }
 }
 
 @media all and (max-width: 767px) {
+  .hero_m_area{
+    background: url('../images/home/home-mobile.png') no-repeat scroll 0 0 / cover;
+  }
   .hero_content {
     padding-top: 70px;
     padding-bottom: 101px;
@@ -200,12 +247,65 @@
   .single_blog_btn {
     font-size: 18px;
   }
+  .article_main_area {
+    background: #0d0d5b;
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+  .article_hTitle {
+    font-size: 26px;
+  }
+  article .sectionArticle {
+    font-size: 22px;
+  }
+  .aearn_area_shape {
+    transform: rotate(319deg);
+  }
+  .aearn_area_shape img {
+    display: none;
+  }
+  .earn_area{
+    background: url('../images/yillow-lmobile-2.png') no-repeat scroll 0 0 / 100% 108%;
+    padding-bottom: 470px; 
+  }
+  .tokenomic_content {
+    background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / 100% 100%;
+}
+.tokenomic{
+  position: relative;
+}
+.mk_banner_content{
+  opacity: 0;
+}
+.tokenomis_mobile_hero_text{
+  display: block;
+  border-radius: 20px;
+  background: #0d0d5b;
+  padding:40px 30px;
+  transform: translateY(-85px);
+}
+.hero_area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero_m_area{
+  align-items: flex-start;
+  position: relative;
+}
+.hero_content a{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 150px;
+  text-align: center;
+}
 }
 
 @media all and (max-width: 575px) {
-  .hero_area {
-    background-size: cover;
-  }
+  
   p {
     font-size: 16px !important;
   }
@@ -262,6 +362,7 @@
 @media all and (max-width: 480px) {
   .hero_content h1 {
     font-size: 40px;
+    display: inline-block;
   }
   .social_menu ul li a {
     height: 45px;
