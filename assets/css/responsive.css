@@ -162,12 +162,22 @@
   .hero_content {
     max-width: 350px;
   }
+  .page_section,
   .contact_title{
     font-size: 42px;
+  }
+  .privacy_title {
+    font-size: 24px;
   }
 }
 
 @media all and (max-width: 767px) {
+  .privacy_single .w-50{
+    width: 100% !important;
+  }
+  .privacy_contetn {
+    padding: 70px 45px;
+  }
   .hero_m_area{
     background: url('../images/home/home-mobile.png') no-repeat scroll 0 0 / cover;
   }
@@ -315,6 +325,7 @@
   max-width: 150px;
   text-align: center;
 }
+.page_section,
 .contact_title{
   font-size: 36px;
 }
@@ -325,9 +336,13 @@
   margin-bottom: 40px;
   padding-top: 20px;
 }
+.privacy_title {
+  font-size: 22px;
+}
 }
 
 @media all and (max-width: 575px) {
+  .page_section,
   .contact_title{
     font-size: 32px;
   }
@@ -385,6 +400,12 @@
   .contact_title{
     margin-bottom: 40px;
     padding-top: 20px;
+  }
+  .privacy_contetn {
+    padding: 60px 30px;
+  }
+  .privacy_title {
+    font-size: 20px;
   }
 }
 
