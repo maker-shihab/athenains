@@ -629,18 +629,13 @@ form input[type="submit"] {
     100%;
 }
 .tokenomic_content {
-  background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / 125%
-    114%;
+  background: url("../images/texno/texno-shape.png") no-repeat scroll 0 0 / cover;
 }
 .mk_banner_content {
   padding: 70px 0;
-  height: 650px;
+  height: 600px;
   display: flex;
   align-items: center;
-}
-.mk_banner_content {
-  max-width: 950px;
-  margin: 0 auto;
 }
 .mk_banner_title {
   font-size: 60px;
